@@ -2,6 +2,7 @@ import Image from "next/image"
 import { Badge } from "../../shadcn/Badge";
 import SendmessageIcon from "../../lottie-ui/send-message";
 import CardWrapper from "../card-wrapper";
+import TwitterImg from "@/assets/Twitter.png";
 
 const AllianceLanding = () => {
   return (
@@ -10,7 +11,7 @@ const AllianceLanding = () => {
         <div className="relative flex justify-between w-full h-full items-stretch flex-col">
           <div className="absolute h-full w-full aspect-[578/433] shadow-2xl rounded-lg">
             <Image
-              src={"/projects/Alliance-money.png"}
+              src={TwitterImg}
               alt={"Alliance landing page example"}
               fill
               style={{
@@ -22,36 +23,24 @@ const AllianceLanding = () => {
           </div>
         </div>
           <div className="flex flex-col items-start gap-1">
-            <h4 className="text-xs font-medium opacity-80 uppercase flex flex-wrap gap-2 items-center">
-              <span>Project at</span>
-              <span className="flex gap-1">
-                <Image
-                  src="/companies/01_Terra_color.png"
-                  alt="TFL logo"
-                  height={12}
-                  width={16}
-                />
-                Terraform Labs
-              </span>
-            </h4>
             <div className="w-full flex gap-2 items-center">
               <h1 className="text-2xl font-medium dark:text-white text-black uppercase opacity-90">
-                Alliance Landing
+                Twitter
               </h1>
-              <SendmessageIcon link="https://alliance.money/" lottieName="AllianceLandingIcon" />
+              <SendmessageIcon link="https://twitter-silk-five.vercel.app/" lottieName="AllianceLandingIcon" />
             </div>
             <div className="flex gap-2 flex-wrap mt-1">
               <Badge variant="default" className="text-xs">
-                Frontend + Design
+                Frontend
               </Badge>
               <Badge variant="default" className="text-xs">
                 React
               </Badge>
               <Badge variant="default" className="text-xs">
-                Typescript
+                Figma
               </Badge>
               <Badge variant="default" className="text-xs">
-                SCSS
+                Tailwind
               </Badge>
             </div>
           </div>

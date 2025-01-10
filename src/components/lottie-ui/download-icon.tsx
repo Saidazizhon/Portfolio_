@@ -52,7 +52,7 @@ const Download = () => {
 
   return (
     <a
-      href="/JoshuaBrigati-Resume.pdf"
+      href="/Saidazizhon_Resume.pdf"
       download
       className="relative z-10"
     >

@@ -20,7 +20,6 @@ import {
 	IconCard,
 	StationUICard,
 	AllianceDaoCard,
-	StationSetupCard,
 	AllianceLandingCard,
 	StationLandingCard,
 	DeveloperLandingCard,
@@ -117,7 +116,7 @@ const Grid = () => {
           }}
         >
 					<BlurFade delay={0.24}>
-						<IconCard title="Linkedin" link="https://www.linkedin.com/in/joshuabrigati/" />
+						<IconCard title="Linkedin" link="https://www.linkedin.com/in/%D1%81%D0%B0%D0%B8%D0%B4%D0%B0%D0%B7%D0%B8%D0%B7%D1%85%D0%BE%D0%BD-%D0%B0%D1%81%D1%80%D0%B0%D1%80%D0%BE%D0%B2-578298323/" />
 					</BlurFade>
         </div>
         <div
@@ -128,18 +127,7 @@ const Grid = () => {
           }}
         >
 					<BlurFade delay={0.26}>
-						<IconCard title="Github" link="https://github.com/JoshuaBrigati" />
-					</BlurFade>
-        </div>
-        <div
-          key="codepen"
-          className={cn(styles.itemGrab, styles.item)}
-          style={{
-            transitionDuration: isMounted ? "500ms" : "0ms"
-          }}
-        >
-					<BlurFade delay={0.28}>
-						<IconCard title="Codepen" link="https://codepen.io/JoshuaBriagti/pens/showcase" />
+						<IconCard title="Github" link="https://github.com/Saidazizhon" />
 					</BlurFade>
         </div>
         <div
@@ -150,7 +138,7 @@ const Grid = () => {
           }}
         >
 					<BlurFade delay={0.30}>
-						<IconCard title="Email" link="mailto:brigati.joshua@gmail.com" />
+						<IconCard title="Email" link="https://mail.google.com/mail/u/0/#inbox" />
 					</BlurFade>
         </div>
         <div
@@ -195,17 +183,6 @@ const Grid = () => {
         >
 					<BlurFade delay={0.55}>
 						<StationLandingCard />
-					</BlurFade>
-				</div>
-				<div
-					key="station-setup"
-					className={cn(styles.itemGrab, styles.item)}
-					style={{
-						transitionDuration: isMounted ? "700ms" : "0ms"
-					}}
-        >
-					<BlurFade delay={0.60}>
-						<StationSetupCard />
 					</BlurFade>
 				</div>
 				<div
